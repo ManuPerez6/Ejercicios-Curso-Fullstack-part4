@@ -1,0 +1,25 @@
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "hellas",
+    "name": "Arto Hellas",
+    "password": "alainen"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/680c5f0aac11c07833518c22
+###
+GET http://localhost:3003/api/users
+###
+GET http://localhost:3003/api/blogs
+###
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+    "username": "hellas",
+    "password": "alainen"
+}
+###
+

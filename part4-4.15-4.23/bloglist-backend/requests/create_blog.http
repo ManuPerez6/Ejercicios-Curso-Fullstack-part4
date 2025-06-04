@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjgzOTFjOTU4MGUzNWIwYTVlZWNlZTIxIiwiaWF0IjoxNzQ4ODE5OTgwLCJleHAiOjE3NDg4MjM1ODB9.bHeQpst0G0bJ_4IlB5-taoI9y597jOI9vd1J2ZZhOzA 
+
+{
+    "title": "Arto's Blog 3",
+    "author": "Arto Hellas",
+    "url": "https://blog3.com",
+    "likes": 30
+}
+
